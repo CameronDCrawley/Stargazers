@@ -24,7 +24,7 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=F1CBvJxPV8LpzOROolbUYnSRksmOV
 
     }
                 document.querySelector('h2').innerText= data.title
-                 document.querySelector('h3').innerHTML= data.explanation
+                 document.querySelector('#placeHere2').innerHTML= data.explanation
                 document.querySelector('img').src= data.hdurl
                 document.querySelector('video').src = data.url
 
@@ -34,3 +34,5 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=F1CBvJxPV8LpzOROolbUYnSRksmOV
   console.log(`error is ${error}`)
 })
 }
+
+
