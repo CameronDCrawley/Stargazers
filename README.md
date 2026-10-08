@@ -1,10 +1,10 @@
-NASA Astronomy Picture of the Day
+**NASA Astronomy Picture of the Day**
 
 Web app that lets users pick a date to view NASA's Astronomy Picture of the Day (APOD). It displays the image or video, title, and explanation for the chosen date.
 
 
 
-Features
+**Features**
 
 - **Date Picker:** Select any date to retrieve media from NASA's archive.
 - **Image & Video Support:** Automatically detects whether the media is an image or a video and updates the page layout.
@@ -12,13 +12,13 @@ Features
 
 
 
- API Used
+ **API Used**
 
 - **NASA Astronomy Picture of the Day (APOD) API:** `https://api.nasa.gov/planetary/apod`
 
 
 
- How It Works
+ **How It Works**
 
 1. The user inputs a date and clicks the button.
 2. The app fetches data from the APOD API using the selected date.
