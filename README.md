@@ -1,6 +1,9 @@
 ## NASA Stargazers 
 A web application that lets users pick a date to view NASA's Astronomy Picture of the Day (APOD). It displays the image or video, title, and explanation for the chosen date.
 
+## Live Demo
+https://camerondcrawley.github.io/Stargazers/
+
 ## Features
 Date Picker: Select any date to retrieve media directly from NASA's official archive.
 
